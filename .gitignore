@@ -1,0 +1,24 @@
+# Runtime data and uploaded files
+storage/*
+!storage/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+tools/shims/
+
+# Python / Node / editor cache
+__pycache__/
+*.py[cod]
+node_modules/
+.vscode/
+.idea/
+
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
+
